@@ -9,7 +9,7 @@ var myColor = d3.scaleSequential()
 
 
     
-var svg = d3.select("#my_dataviz")
+const svg = d3.select("#heatmap")
        .append("svg")
        .attr("width", width + margin.left + margin.right)
        .attr("height", height + margin.top + margin.bottom)
